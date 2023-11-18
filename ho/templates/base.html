@@ -1,0 +1,16 @@
+<title>
+    {% block title %}
+    {% endblock %}
+</title>
+
+{%- block navbar -%}
+{% include "templates/includes/header/index.html" %}
+{%- endblock -%}
+
+
+{% block content %}
+{% endblock %}
+
+{%- block footer -%}
+{% include "templates/includes/footer/index.html" %}
+{%- endblock -%}
